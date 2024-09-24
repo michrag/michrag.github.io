@@ -47,33 +47,20 @@ I use the app <a href="https://www.bookshelfapp.info/" target="_blank">Bookshelf
 
 
 <script>
-  function resizeIframe() {
-    var iframe = document.getElementById('programmingIframe');
-    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+  function resizeIframes() {
+    var iframes = document.querySelectorAll('iframe');
+    iframes.forEach(function(iframe) {
+      var documentElement = iframe.contentWindow.document.documentElement;
+      var body = iframe.contentWindow.document.body;
+      
+      var newHeight = Math.max(body.scrollHeight, documentElement.scrollHeight);
+      iframe.style.height = newHeight + 'px';
+    });
   }
-  document.getElementById('programmingIframe').onload = resizeIframe;
-</script>
 
-<script>
-  function resizeIframe() {
-    var iframe = document.getElementById('softwareIframe');
-    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
-  }
-  document.getElementById('softwareIframe').onload = resizeIframe;
-</script>
+  window.addEventListener('resize', resizeIframes);
 
-<script>
-  function resizeIframe() {
-    var iframe = document.getElementById('unixIframe');
-    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
-  }
-  document.getElementById('unixIframe').onload = resizeIframe;
-</script>
-
-<script>
-  function resizeIframe() {
-    var iframe = document.getElementById('universityIframe');
-    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
-  }
-  document.getElementById('universityIframe').onload = resizeIframe;
+  document.querySelectorAll('iframe').forEach(function(iframe) {
+    iframe.onload = resizeIframes;
+  });
 </script>
