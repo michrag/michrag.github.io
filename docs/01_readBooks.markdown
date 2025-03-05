@@ -5,21 +5,13 @@ permalink: /readbooks/
 ---
 
 <a id="top"></a>
-# A selection of books I have read / studied about software / computer science and related topics
+# A selection of books I have at least read, or even studied, about software, computer science, and related topics
 
 I use the app <a href="https://www.bookshelfapp.info/" target="_blank">Bookshelf</a> (Android version) to keep a database of my books, and the tables below have been generated with the "export to html" feature of Bookshelf: it's a very well crafted software, I highly recommend it (I have no affiliation with it).
 
 * TOC
 {:toc}
 
-## Programming Languages
-
-<iframe id="programmingIframe" src="/html/Programming.html" width="100%" frameborder="0"></iframe>
-
-[Back to Top](#top)
-
-[//]: # (This may be the most platform independent comment: <br> is a vertical space)
-<br>
 
 ## Software Development
 
@@ -30,6 +22,17 @@ I use the app <a href="https://www.bookshelfapp.info/" target="_blank">Bookshelf
 [//]: # (This may be the most platform independent comment: <br> is a vertical space)
 <br>
 
+
+## Tools
+
+<iframe id="toolsIframe" src="/html/Tools.html" width="100%" frameborder="0"></iframe>
+
+[Back to Top](#top)
+
+[//]: # (This may be the most platform independent comment: <br> is a vertical space)
+<br>
+
+
 ## Unix & Linux
 
 <iframe id="unixIframe" src="/html/UnixLinux.html" width="100%" frameborder="0"></iframe>
@@ -38,6 +41,27 @@ I use the app <a href="https://www.bookshelfapp.info/" target="_blank">Bookshelf
 
 [//]: # (This may be the most platform independent comment: <br> is a vertical space)
 <br>
+
+
+## Programming Languages
+
+<iframe id="programmingIframe" src="/html/Programming.html" width="100%" frameborder="0"></iframe>
+
+[Back to Top](#top)
+
+[//]: # (This may be the most platform independent comment: <br> is a vertical space)
+<br>
+
+
+## Computer Science
+
+<iframe id="compsciIframe" src="/html/ComputerScience.html" width="100%" frameborder="0"></iframe>
+
+[Back to Top](#top)
+
+[//]: # (This may be the most platform independent comment: <br> is a vertical space)
+<br>
+
 
 ## University Textbooks
 
