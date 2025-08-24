@@ -5,9 +5,9 @@ permalink: /readbooks/
 ---
 
 <a id="top"></a>
-# A selection of books I have at least read, or even studied, about software, computer science, and related topics
+# A selection of books I have read about software, computer science, and related topics
 
-I use the app <a href="https://www.bookshelfapp.info/" target="_blank">Bookshelf</a> (Android version) to keep a database of my books, and the tables below have been generated with the "export to html" feature of Bookshelf: it's a very well crafted software, I highly recommend it (I have no affiliation with it).
+The tables below have been generated with the app <a href="https://www.bookshelfapp.info/" target="_blank">Bookshelf</a>.
 
 * TOC
 {:toc}

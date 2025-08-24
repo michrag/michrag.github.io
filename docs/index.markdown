@@ -5,10 +5,8 @@
 layout: home
 ---
 
-Hi! My name is michrag (fun fact: ...).
+<span style="font-size: 2em;">Hi! My name is Michele.</span>
 
-I have more than ten years of professional experience in software development, after having obtained a M.Sc. and B.Sc. in Computer Science Engineering.
+For more details about my career and education, please see my <a href="https://www.linkedin.com/in/ragazzo/" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>.
 
-For more details about my career and education, you can take a look at my LinkedIn profile.
-
-Cheers!
+You can also find me on <a href="https://github.com/michrag" target="_blank" rel="noopener noreferrer">GitHub</a>, where I keep some experiments and older projects.
